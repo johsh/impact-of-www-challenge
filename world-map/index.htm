@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>worldmap</title>
+
+		<script src="http://d3js.org/d3.v3.min.js"></script>
+		<script src="http://d3js.org/topojson.v1.min.js"></script>
+		<script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js" type="text/javascript"></script>
+		<script src="datamaps.world.min.js"></script>`
+		
+	</head>
+	<body>	
+		<p id="do">DO</p>
+		<div id="container" style="position: relative; width: 1000px; height: 800px;"></div>		
+		<script>
+			var d;
+			var map = new Datamap({
+				element: document.getElementById('container'),
+				done: function(datamap) {
+					datamap.svg.selectAll('.datamaps-subunit').on('click', function(geography) {						
+						console.log(geography);
+						d = geography;
+						console.log(geography.properties.name);
+						geography.attr("fill", "red");
+					});
+				},
+				fills: {
+					defaultFill: "#aaaaaa",
+					testFill: "#FFeeaa"
+				},
+				data: {
+					USA: {fillKey: "testFill"},
+					DEU: {fillKey: "testFill"},
+					FRA: {fillKey: "testFill"},
+				}
+			});
+			//DEV
+			console.log(map);
+			
+			var dataset;
+			d3.csv("scores_n_rankings.csv", function(error, data) {
+
+				if (error) {  //If error is not null, something went wrong.
+					console.log("fehler");
+					console.log(error);  //Log the error.
+				} else {      //If no error, the file loaded correctly. Yay!
+				
+					//DEV
+					console.log(data);   //Log the data.
+					dataset = data;
+					map
+				}
+
+				d3.select("p")
+				.on("click", function(){
+					map.svg.selectAll('.datamaps-subunit')
+				})
+				//dataset.forEach(function(d){console.log(d.countryabbr)})
+			});
+		</script>	
+	</body>
+</html>

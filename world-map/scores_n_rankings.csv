@@ -1,0 +1,82 @@
+countryabbr,country,scores,rankings
+ARG,Argentina,55,36
+AUS,Australia,86,11
+AUT,Austria,85,14
+BHR,Bahrain,38,50
+BGD,Bangladesh,24,64
+BEL,Belgium,75,20
+BEN,Benin,16,70
+BWA,Botswana,17,68
+BRA,Brazil,59,33
+BFA,Burkina Faso,14,73
+CMR,Cameroon,11,76
+CAN,Canada,84,15
+CHL,Chile,69,27
+CHN,China,31,57
+COL,Colombia,60,32
+CRI,Costa Rica,57,34
+CZE,Czech Republic,73,24
+DNK,Denmark,92,6
+ECU,Ecuador,44,43
+EGY,Egypt,25,63
+EST,Estonia,77,18
+ETH,Ethiopia,2,80
+FIN,Finland,92,7
+FRA,France,91,9
+DEU,Germany,83,16
+GHA,Ghana,33,55
+GRC,Greece,71,26
+HUN,Hungary,46,42
+ISL,Iceland,92,8
+IND,India,32,56
+IDN,Indonesia,40,48
+IRL,Ireland,76,19
+ISR,Israel,72,25
+ITA,Italy,74,22
+JAM,Jamaica,40,47
+JPN,Japan,86,13
+JOR,Jordan,27,62
+KAZ,Kazakhstan,38,49
+KEN,Kenya,37,53
+KOR,Korea (Rep. of),87,10
+MWI,Malawi,12,74
+MYS,Malaysia,53,37
+MLI,Mali,8,79
+MUS,Mauritius,48,40
+MEX,Mexico,62,30
+MAR,Morocco,34,54
+NAM,Namibia,30,60
+NPL,Nepal,15,71
+NLD,Netherlands,86,12
+NZL,New Zealand,92,5
+NGA,Nigeria,20,67
+NOR,Norway,98,2
+PAK,Pakistan,10,77
+PER,Peru,48,39
+PHL,Philippines,48,38
+POL,Poland,74,21
+PRT,Portugal,73,23
+QAT,Qatar,38,51
+RUS,Russia,47,41
+RWA,Rwanda,12,75
+SAU,Saudi Arabia,16,69
+SEN,Senegal,28,61
+SGP,Singapore,61,31
+ZAF,South Africa,56,35
+ESP,Spain,67,28
+SWE,Sweden,100,1
+CHE,Switzerland,79,17
+TZA,Tanzania,31,59
+THA,Thailand,41,46
+TUN,Tunisia,44,44
+TUR,Turkey,31,58
+UGA,Uganda,21,65
+ARE,United Arab Emirates,43,45
+GBR,United Kingdom,96,3
+USA,United States,95,4
+URY,Uruguay,62,29
+VEN,Venezuela,38,52
+VNM,Viet Nam,14,72
+YEM,Yemen,0,81
+ZMB,Zambia,20,66
+ZWE,Zimbabwe,10,78
